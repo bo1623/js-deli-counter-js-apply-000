@@ -27,3 +27,13 @@ function currentLine(current){
   return 'The line is currently: '+text.join(', ') //joining the elements in the text with ', '
   
 }
+
+var currentNum=0 
+
+function takeaNumber(line){
+  //var current=line.length
+  line.push(currentNum+1)
+  currentNum+=1 
+  return 'Welcome you are number '+(currentNum)
+}
+
